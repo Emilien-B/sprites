@@ -41,7 +41,11 @@ def main():
 
         img = Image.open(path)
         change_log("Traitement de l'image...")
-        r, g, b, a = img.split()
+        try:
+            r, g, b, a  = img.split()
+        except:
+            r, g, b  = img.split()
+
         img = Image.merge("RGB", (r, g, b))
         global img_original
         img_original = img.quantize(255)
