@@ -69,7 +69,7 @@ class rectangle:
 
 class image:
     def __init__(self, x=0,y=0, scale=1, path="/thingz.bmp",hidden=False):
-
+        self.path = path
         file = open(path, "rb")
         self.bitmap = displayio.OnDiskBitmap(file)
 
@@ -116,10 +116,15 @@ class image:
     def width(self):
         return self.bitmap.width
 
+    @property
+    def path(self):
+        return self.path
+
 
 class icon:
     def __init__(self, x=0,y=0, scale=1, name="cross",color=0xFFFFFF, hidden=False):
-        path = "/lib/sprites/icons/"+name+".bmp"
+        self.name = name
+        path = "/lib/sprites/icons/"+self.name+".bmp"
         file = open(path, "rb")
 
         self.bitmap = displayio.OnDiskBitmap(file)
@@ -162,19 +167,15 @@ class icon:
         self.group[0].hidden = hidden
 
     @property
-    def height(self):
-        return self.bitmap.height
-    
-    @property
-    def width(self):
-        return self.bitmap.width
-
-    @property
     def color(self):
         return self.new_palette[0]
     @color.setter
     def color(self, color):
         self.new_palette[0] = color
+
+    @property
+    def name(self):
+        return self.name
 
 
 def collision(a,b):
