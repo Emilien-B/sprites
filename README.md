@@ -4,9 +4,9 @@ Vous pouvez l'installer en ajoutant le [dossier *sprites*](sprites) dans */GALAX
 
 Pour programmer la carte, vous pouvez utiliser [l'interface en ligne](https://play.thingz.co/galaxia) et cliquer sur "Texte" ou le fichier *code.py* qui est dans votre Galaxia.
 
-[**Télécharger la librairie**](https://github.com/Emilien-B/sprites/releases/tag/librarie)
+[**Télécharger la librairie**](https://github.com/Emilien-B/sprites/releases)
 
-[**Télécharger l'utilitaire d'image**](https://github.com/Emilien-B/sprites/releases/tag/utilitaire_image) ([voir ℹ️](https://github.com/Emilien-B/sprites#%E2%84%B9%EF%B8%8F))
+[**Télécharger l'utilitaire d'image**](https://github.com/Emilien-B/sprites/tree/main/utilitaire_image)
 # ⚙️ Utilisation
 
 💾 Importer la libraire :
