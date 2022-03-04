@@ -1,6 +1,7 @@
 # 📖 Présentation
 `sprites` est une librairie Python, elle permet d'affichier des éléments sur l'écran de la [Galaxia](https://thingz.co/pages/galaxia-beta).
-Vous pouvez l'installer en ajoutant le [fichier *sprites*]() dans */GALAXIA/lib*.
+Vous pouvez l'installer en ajoutant le [dossier *sprites*]() dans */GALAXIA/lib*.
+
 Pour programmer la carte, vous pouvez utiliser [l'interface en ligne](https://play.thingz.co/galaxia) et cliquer sur "Texte" ou le fichier *code.py* qui est dans votre Galaxia.
 
 # ⚙️ Utilisation
@@ -11,10 +12,10 @@ import sprites
 ```
 Les différents types de sprite de la librarie sont `rectangle`, `icon` et `image`.
 
-## Rectangle
+## 🟨 Rectangle
 On commence par créer un rectangle et le stocker dans une variable (ici `sprite`). 
 ```python3
-sprite = sprites.rectangle(x=0,y=0,color=0xFF0000, width=20, height=20, scale=1, hidden=False)
+sprite = sprites.rectangle(x=0, y=0, color=0xFF0000, width=20, height=20, scale=1, hidden=False)
 ```
 Vous pouvez définir de nombreux arguments:
 
@@ -28,31 +29,31 @@ Vous pouvez définir de nombreux arguments:
 
 **hidden** : si le rectangle est caché, lorsque cette variable est à `False` le rectangle est visible (en booléen, `True` ou `False`)
 
-<img src="https://cdn-learn.adafruit.com/assets/assets/000/074/495/large1024/circuitpython_coord_sys.png?1555378384"> width</img>
+<img src="https://cdn-learn.adafruit.com/assets/assets/000/074/495/large1024/circuitpython_coord_sys.png?1555378384" width="300"></img>
 
 
-## Icon
+## ♥️ Icon
 On commence par créer une image et la stocker dans une variable (ici `sprite2`).
 
 ```python3
-sprite2 = sprites.icon(x=0,y=0, scale=1, name="cross",color=0xFFFFFF, hidden=False)
+sprite2 = sprites.icon(x=0, y=0, scale=1, name="cross", color=0xFFFFFF, hidden=False)
 ```
 **x et y** : position de l'icône (en nombres entiers)
 
 **scale** : échelle de l'icône, elle multiplie les dimensions de l'image (en nombre entier superieur ou égal à 1)
 
 **name** : nom de l'icône, il peut être : "cross", "circle", "heart" ou "emoji"
-[Comment ajouter ses propres icônes ?]()
+[Comment ajouter ses propres icônes ?](https://github.com/Emilien-B/sprites#%E2%84%B9%EF%B8%8F)
 
 
 **color** : couleur de l'icône (en [hexadécimal](https://htmlcolorcodes.com/))
 
 **hidden** : si l'icône est caché, lorsque cette variable est à `False` l'icône est visible (en booléen, `True` ou `False`)
 
-## Image 
+## 🌅 Image 
 On commence par créer une image et la stocker dans une variable (ici `sprite3`).
 ```python3
-sprite3 = sprites.image(x=0,y=0, scale=1, path="/thingz.bmp",hidden=False)
+sprite3 = sprites.image(x=0, y=0, scale=1, path="/thingz.bmp", hidden=False)
 ```
 **x et y** : position de l'image (en nombres entiers)
 
@@ -70,12 +71,12 @@ sprite3 = sprites.image(x=0,y=0, scale=1, path="/thingz.bmp",hidden=False)
 
 ## Autres commandes
 ```python3
-collision(sprite,sprite2)
+sprites.collision(sprite,sprite2)
 ```
 Renvoie `True` si les deux sprites fournis sont en collision
 
 ```python3
-border_collision(border="n",sprite)
+sprites.border_collision(border="n",sprite)
 ```
 Renvoie `True` si le sprite fourni est en collision avec la bordure du haut (north).
 `border` peut être "n"(north), "s"(south), "w"(west) ou "e"(east)
