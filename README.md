@@ -9,7 +9,7 @@ Pour programmer la carte, vous pouvez utiliser [l'interface en ligne](https://pl
 [**Télécharger l'utilitaire d'image**](https://github.com/Emilien-B/sprites/releases/tag/utilitaire_image) ([voir ℹ️](https://github.com/Emilien-B/sprites#%E2%84%B9%EF%B8%8F))
 # ⚙️ Utilisation
 
-Importer la libraire :
+💾 Importer la libraire :
 ```python3
 import sprites
 ```
