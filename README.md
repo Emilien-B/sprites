@@ -68,7 +68,7 @@ sprite3 = sprites.image(x=0, y=0, scale=1, path="/thingz.bmp", hidden=False)
 
 ## ℹ️ 
 >Afin de sauvegarder une image dans la Galaxia dans le bon format, les bonnes dimensions, les bonnes couleurs... 
->Vous pouvez utiliser [l'utilitaire d'image Galaxia]().
+>Vous pouvez utiliser [l'utilitaire d'image Galaxia](https://github.com/Emilien-B/sprites/tree/main/utilitaire_image).
 >
 > Si vous souhaiter ajouter une icône il faut qu'elle soit blanche sur fond noir et en 20x20, puis, il faut la déplacer dans */GALAXIA/lib/sprites/icons/* .
 
