@@ -73,15 +73,15 @@ sprite3 = sprites.image(x=0, y=0, scale=1, path="/thingz.bmp", hidden=False)
 ```python3
 sprites.collision(sprite,sprite2)
 ```
-Renvoie `True` si les deux sprites fournis sont en collision
+Renvoie `True` si les deux sprites fournis sont en collision.
 
 ```python3
 sprites.border_collision(border="n",sprite)
 ```
 Renvoie `True` si le sprite fourni est en collision avec la bordure du haut (north).
-`border` peut être "n"(north), "s"(south), "w"(west) ou "e"(east)
+`border` peut être "n"(north), "s"(south), "w"(west) ou "e"(east).
 
 ```python3
 sprites.version()
 ```
-Indique la version
+Indique la version.
