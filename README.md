@@ -105,3 +105,20 @@ Indique la version.
 sprites.version()
 ```
 
+# 📎 Autres...
+
+
+### 🖥 Mon compte Twitter
+
+<img src="https://pbs.twimg.com/profile_banners/815889012162437120/1613380165/1500x500" alt="" width="300"/>
+
+**[twitter.com/emilien_barde](https://twitter.com/emilien_barde)**
+
+### 💰 Me soutenir
+**[paypal.com/emilienb31](https://www.paypal.com/paypalme/emilienb31)**
+
+### 📚 Documentation
+
+**[Documentation de la librarie sur laquelle je me suis basé](https://docs.circuitpython.org/en/latest/shared-bindings/displayio/)**
+
+**[FAQ sur la Galaxia](https://doc.clickup.com/d/h/2g0zm-1688/80aeb3d8ff62efa/2g0zm-788)**
