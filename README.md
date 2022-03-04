@@ -28,7 +28,7 @@ Vous pouvez définir de nombreux arguments:
 
 **width et height** : longueur et hauteur du rectangle (en nombres entiers) (non modifiable)
 
-**scale** : échelle du rectangle, elle multiplie les dimensions du rectangle (en nombre entier superieur ou égal à 1)
+**scale** : échelle du rectangle, elle multiplie les dimensions du rectangle (en nombre entier supérieur ou égal à 1)
 
 **hidden** : si le rectangle est caché, lorsque cette variable est à `False` le rectangle est visible (en booléen, `True` ou `False`)
 
@@ -43,7 +43,7 @@ sprite2 = sprites.icon(x=0, y=0, scale=1, name="cross", color=0xFFFFFF, hidden=F
 ```
 **x et y** : position de l'icône (en nombres entiers)
 
-**scale** : échelle de l'icône, elle multiplie les dimensions de l'image (en nombre entier superieur ou égal à 1)
+**scale** : échelle de l'icône, elle multiplie les dimensions de l'image (en nombre entier supérieur ou égal à 1)
 
 **name** : nom de l'icône, il peut être : "cross", "circle", "heart" ou "emoji" (non modifiable)
 [Comment ajouter ses propres icônes ?](https://github.com/Emilien-B/sprites#%E2%84%B9%EF%B8%8F)
@@ -60,7 +60,7 @@ sprite3 = sprites.image(x=0, y=0, scale=1, path="/thingz.bmp", hidden=False)
 ```
 **x et y** : position de l'image (en nombres entiers)
 
-**scale** : échelle de l'image, elle multiplie les dimensions de l'image (en nombre entier superieur ou égal à 1)
+**scale** : échelle de l'image, elle multiplie les dimensions de l'image (en nombre entier supérieur ou égal à 1)
 
 **path** : chemin du fichier en .bmp à l'intérieur de la Galaxia (non modifiable)
 
