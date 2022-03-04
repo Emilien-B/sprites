@@ -26,7 +26,7 @@ Vous pouvez définir de nombreux arguments:
 
 **color** : couleur du rectangle (en [hexadécimal](https://htmlcolorcodes.com/))
 
-**width et height** : longueur et hauteur du rectangle (en nombres entiers)
+**width et height** : longueur et hauteur du rectangle (en nombres entiers) (non modifiable)
 
 **scale** : échelle du rectangle, elle multiplie les dimensions du rectangle (en nombre entier superieur ou égal à 1)
 
@@ -45,7 +45,7 @@ sprite2 = sprites.icon(x=0, y=0, scale=1, name="cross", color=0xFFFFFF, hidden=F
 
 **scale** : échelle de l'icône, elle multiplie les dimensions de l'image (en nombre entier superieur ou égal à 1)
 
-**name** : nom de l'icône, il peut être : "cross", "circle", "heart" ou "emoji"
+**name** : nom de l'icône, il peut être : "cross", "circle", "heart" ou "emoji" (non modifiable)
 [Comment ajouter ses propres icônes ?](https://github.com/Emilien-B/sprites#%E2%84%B9%EF%B8%8F)
 
 
@@ -62,7 +62,7 @@ sprite3 = sprites.image(x=0, y=0, scale=1, path="/thingz.bmp", hidden=False)
 
 **scale** : échelle de l'image, elle multiplie les dimensions de l'image (en nombre entier superieur ou égal à 1)
 
-**path** : chemin du fichier en .bmp à l'intérieur de la Galaxia
+**path** : chemin du fichier en .bmp à l'intérieur de la Galaxia (non modifiable)
 
 **hidden** : si l'image est caché, lorsque cette variable est à `False` l'image est visible (en booléen, `True` ou `False`)
 
@@ -73,18 +73,35 @@ sprite3 = sprites.image(x=0, y=0, scale=1, path="/thingz.bmp", hidden=False)
 > Si vous souhaiter ajouter une icône il faut qu'elle soit blanche sur fond noir et en 20x20, puis, il faut la déplacer dans */GALAXIA/lib/sprites/icons/* .
 
 ## Autres commandes
+
+
+Tous les attributs peuvent être récupérés. 
+
+Exemples:
+```python3
+sprite.x 
+>>> 30 # valeur x de sprite
+sprite.name 
+>>> "emoji" # nom de l'icône utilisée
+```
+Presque tous les attributs sont modifiables (hormis ceux marqués "non modifiable").
+
+Exemples:
+```python3
+sprite.x += 10 # déplace le sprite vers la droite
+sprite.color = 0xFFFF00 # modifie la couleur d'une icône ou d'une image
+```
+Renvoie `True` si les deux sprites fournis sont en collision.
 ```python3
 sprites.collision(sprite,sprite2)
 ```
-Renvoie `True` si les deux sprites fournis sont en collision.
-
+Renvoie `True` si le sprite fourni est en collision avec la bordure du haut (north).
+`border` peut être "n"(north), "s"(south), "w"(west) ou "e"(east).
 ```python3
 sprites.border_collision(border="n",sprite)
 ```
-Renvoie `True` si le sprite fourni est en collision avec la bordure du haut (north).
-`border` peut être "n"(north), "s"(south), "w"(west) ou "e"(east).
-
+Indique la version.
 ```python3
 sprites.version()
 ```
-Indique la version.
+
