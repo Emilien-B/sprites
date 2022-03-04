@@ -1,3 +1,10 @@
+# 📖 Présentation
+`sprites` est une librairie Python, elle permet d'affichier des éléments sur l'écran de la [Galaxia](https://thingz.co/pages/galaxia-beta).
+Vous pouvez l'installer en ajoutant le [fichier *sprites*]() dans */GALAXIA/lib*.
+Pour programmer la carte, vous pouvez utiliser [l'interface en ligne](https://play.thingz.co/galaxia) et cliquer sur "Texte" ou le fichier *code.py* qui est dans votre Galaxia.
+
+# ⚙️ Utilisation
+
 Importer la libraire :
 ```python3
 import sprites
@@ -19,7 +26,7 @@ Vous pouvez définir de nombreux arguments:
 
 **scale** : échelle du rectangle, elle multiplie les dimensions du rectangle (en nombre entier superieur ou égal à 1)
 
-**hidden** : si le rectangle est caché, lorsque cette variable est à `False` le rectangle est visible (en [booléen]())
+**hidden** : si le rectangle est caché, lorsque cette variable est à `False` le rectangle est visible (en booléen, `True` ou `False`)
 
 <img src="https://cdn-learn.adafruit.com/assets/assets/000/074/495/large1024/circuitpython_coord_sys.png?1555378384"> width</img>
 
