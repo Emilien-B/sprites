@@ -10,7 +10,7 @@ Importer la libraire :
 ```python3
 import sprites
 ```
-Les différents types de sprite de la librarie sont [`rectangle`](https://example.com), `icon` et `image`.
+Les différents types de sprite de la librarie sont [`rectangle`](https://github.com/Emilien-B/sprites#-rectangle), [`icon`](https://github.com/Emilien-B/sprites#%EF%B8%8F-icon) et [`image`](https://github.com/Emilien-B/sprites#-image).
 
 ## 🟨 Rectangle
 On commence par créer un rectangle et le stocker dans une variable (ici `sprite`). 
