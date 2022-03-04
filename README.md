@@ -6,7 +6,7 @@ Pour programmer la carte, vous pouvez utiliser [l'interface en ligne](https://pl
 
 [**Télécharger la librairie**](https://github.com/Emilien-B/sprites/releases/tag/librarie)
 
-[**Télécharger l'utilitaire d'image**]() ([voir ℹ️](https://github.com/Emilien-B/sprites#%E2%84%B9%EF%B8%8F))
+[**Télécharger l'utilitaire d'image**](https://github.com/Emilien-B/sprites/releases/tag/utilitaire_image) ([voir ℹ️](https://github.com/Emilien-B/sprites#%E2%84%B9%EF%B8%8F))
 # ⚙️ Utilisation
 
 Importer la libraire :
