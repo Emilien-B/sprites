@@ -1,6 +1,6 @@
 # 📖 Présentation
 `sprites` est une librairie Python, elle permet d'affichier des éléments sur l'écran de la [Galaxia](https://thingz.co/pages/galaxia-beta).
-Vous pouvez l'installer en ajoutant le [dossier *sprites*]() dans */GALAXIA/lib*.
+Vous pouvez l'installer en ajoutant le [dossier *sprites*](sprites) dans */GALAXIA/lib*.
 
 Pour programmer la carte, vous pouvez utiliser [l'interface en ligne](https://play.thingz.co/galaxia) et cliquer sur "Texte" ou le fichier *code.py* qui est dans votre Galaxia.
 
@@ -10,7 +10,7 @@ Importer la libraire :
 ```python3
 import sprites
 ```
-Les différents types de sprite de la librarie sont `rectangle`, `icon` et `image`.
+Les différents types de sprite de la librarie sont [`rectangle`](https://example.com), `icon` et `image`.
 
 ## 🟨 Rectangle
 On commence par créer un rectangle et le stocker dans une variable (ici `sprite`). 
