@@ -133,7 +133,7 @@ while True:
         time.sleep(0.3)
         anim.hidden = True
 ```
-[**Voir les éléments**]()
+[**Voir les éléments**](https://github.com/Emilien-B/sprites/tree/main/exemple)
 # 📎 Autres...
 
 
