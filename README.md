@@ -105,7 +105,7 @@ Indique la version.
 sprites.version()
 ```
 
-## Exemples
+## Exemple
 ```python3
 # Importer les librairies
 import sprites 
@@ -133,6 +133,7 @@ while True:
         time.sleep(0.3)
         anim.hidden = True
 ```
+[**Voir les éléments**]()
 # 📎 Autres...
 
 
