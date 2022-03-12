@@ -135,7 +135,7 @@ while True:
 ```
 [**Voir les éléments**](https://github.com/Emilien-B/sprites/tree/main/exemple)
 
-![caption](/exemple/demo.mp4)
+![caption](/exemple/demo.gif)
 
 # 📎 Autres...
 
