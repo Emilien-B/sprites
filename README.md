@@ -89,7 +89,7 @@ Presque tous les attributs sont modifiables (hormis ceux marqués "non modifiabl
 Exemples:
 ```python3
 sprite.x += 10 # déplace le sprite vers la droite
-sprite.color = 0xFFFF00 # modifie la couleur d'une icône ou d'une image
+sprite.color = 0xFFFF00 # modifie la couleur d'une icône
 ```
 Renvoie `True` si les deux sprites fournis sont en collision.
 ```python3
