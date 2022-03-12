@@ -142,7 +142,7 @@ while True:
 
 ### 🖥 Mon compte Twitter
 
-<img src="https://pbs.twimg.com/profile_banners/815889012162437120/1613380165/1500x500" alt="" width="300"/>
+<img src="https://pbs.twimg.com/profile_banners/815889012162437120/1613380165/1500x500" alt="" width="100"/>
 
 **[twitter.com/emilien_barde](https://twitter.com/emilien_barde)**
 
