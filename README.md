@@ -105,8 +105,8 @@ Indique la version.
 sprites.version()
 ```
 
-## Exemple
-Exemple d'affichage des éléments
+# Exemples
+## 1• Exemple d'affichage des éléments
 ```python3
 # Importer les librairies
 import sprites 
@@ -134,9 +134,10 @@ while True:
         time.sleep(0.3)
         anim.hidden = True
 ```
-[**Accéder aux fichiers**](https://github.com/Emilien-B/sprites/tree/main/exemple)
 
 https://user-images.githubusercontent.com/59746560/158017594-60c57140-fd41-4ed4-ad2b-bd421fba696b.mov
+
+### [**Accéder aux fichiers**](https://github.com/Emilien-B/sprites/tree/main/exemple)
 
 # 📎 Autres...
 
