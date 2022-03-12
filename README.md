@@ -135,10 +135,7 @@ while True:
 ```
 [**Voir les éléments**](https://github.com/Emilien-B/sprites/tree/main/exemple)
 
-<video width="320" autoplay muted>
-  <source src="/exemple/demo.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
+https://github.com/Emilien-B/sprites/blob/main/exemple/demo.mp4?raw=true
 
 # 📎 Autres...
 
