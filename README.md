@@ -134,6 +134,12 @@ while True:
         anim.hidden = True
 ```
 [**Voir les éléments**](https://github.com/Emilien-B/sprites/tree/main/exemple)
+
+<video width="320" height="240" autoplay muted>
+  <source src="exemple/demo.mov" type="video/mov">
+Your browser does not support the video tag.
+</video>
+
 # 📎 Autres...
 
 
