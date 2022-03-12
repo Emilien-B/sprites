@@ -136,7 +136,7 @@ while True:
 ```
 [**Accéder aux fichiers**](https://github.com/Emilien-B/sprites/tree/main/exemple)
 
-![caption](/exemple/demo.gif)
+![caption](https://user-images.githubusercontent.com/59746560/158017594-60c57140-fd41-4ed4-ad2b-bd421fba696b.mov)
 
 # 📎 Autres...
 
