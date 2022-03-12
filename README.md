@@ -106,6 +106,7 @@ sprites.version()
 ```
 
 ## Exemple
+Exemple d'affichage des éléments
 ```python3
 # Importer les librairies
 import sprites 
@@ -133,7 +134,7 @@ while True:
         time.sleep(0.3)
         anim.hidden = True
 ```
-[**Voir les éléments**](https://github.com/Emilien-B/sprites/tree/main/exemple)
+[**Accéder aux fichiers**](https://github.com/Emilien-B/sprites/tree/main/exemple)
 
 ![caption](/exemple/demo.gif)
 
